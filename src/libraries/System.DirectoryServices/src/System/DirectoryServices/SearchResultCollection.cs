@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Collections;
 using System.DirectoryServices.Interop;
 using System.Text;
-
+using static Interop.Activeds;
 using INTPTR_INTPTRCAST = System.IntPtr;
 
 namespace System.DirectoryServices

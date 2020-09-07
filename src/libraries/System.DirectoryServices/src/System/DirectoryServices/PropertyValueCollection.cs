@@ -3,6 +3,7 @@
 
 using System.Collections;
 using System.DirectoryServices.Interop;
+using static Interop.Activeds;
 
 namespace System.DirectoryServices
 {

@@ -10,6 +10,7 @@ using System.Reflection;
 using System.DirectoryServices.Design;
 using System.Globalization;
 using System.Net;
+using static Interop.Activeds;
 
 namespace System.DirectoryServices
 {
