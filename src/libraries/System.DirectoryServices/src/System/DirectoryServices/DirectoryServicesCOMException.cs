@@ -4,7 +4,7 @@
 using System.ComponentModel;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
-using System.DirectoryServices.Interop;
+using static Interop.Activeds;
 
 namespace System.DirectoryServices
 {

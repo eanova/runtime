@@ -124,27 +124,24 @@
     <Compile Include="System\DirectoryServices\DirectoryServicesPermissionAttribute.cs" />
     <Compile Include="System\DirectoryServices\DirectoryServicesPermissionEntry.cs" />
     <Compile Include="System\DirectoryServices\DirectoryServicesPermissionEntryCollection.cs" />
-    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsOptions.cs"
-            Link="Common\Interop\Windows\Activeds\AdsOptions.cs" />
-    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsPropertyOperation.cs"
-        Link="Common\Interop\Windows\Activeds\\AdsPropertyOperations.cs" />
-    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsSearchColumn.cs"
-        Link="Common\Interop\Windows\Activeds\AdsSearchColumn.cs" />
-    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsSearchPreferenceInfo.cs"
-        Link="Common\Interop\Windows\Activeds\AdsSearchPreferenceInfo.cs" />
-    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsSearchPreferences.cs"
-        Link="Common\Interop\Windows\Activeds\AdsSearchPreferences.cs" />
-    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsSortKey.cs"
-        Link="Common\Interop\Windows\Activeds\AdsSortKey.cs" />
-    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsType.cs"
-        Link="Common\Interop\Windows\Activeds\AdsType.cs" />
-    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsValue2.cs"
-        Link="Common\Interop\Windows\Activeds\AdsValue2.cs"/>
-    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsValueHelper2.cs"
-        Link="Common\Interop\Windows\Activeds\AdsValueHelper2.cs"/>
-    <Compile Include="Interop\NativeMethods.cs" />
-    <Compile Include="Interop\SafeNativeMethods.cs" />
-    <Compile Include="Interop\UnsafeNativeMethods.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Interop.Libraries.cs" Link="Common\Interop\Windows\Interop.Libraries.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsGetSetLastError.cs" Link="Common\Interop\Windows\Activeds\AdsGetSetLastError.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsOpenObject.cs" Link="Common\Interop\Windows\Activeds\AdsOpenObject.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsOptions.cs" Link="Common\Interop\Windows\Activeds\AdsOptions.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsPropertyOperation.cs" Link="Common\Interop\Windows\Activeds\\AdsPropertyOperations.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsSearchColumn.cs" Link="Common\Interop\Windows\Activeds\AdsSearchColumn.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsSearchPreferenceInfo.cs" Link="Common\Interop\Windows\Activeds\AdsSearchPreferenceInfo.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsSearchPreferences.cs" Link="Common\Interop\Windows\Activeds\AdsSearchPreferences.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsSortKey.cs" Link="Common\Interop\Windows\Activeds\AdsSortKey.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsType.cs" Link="Common\Interop\Windows\Activeds\AdsType.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsValue2.cs" Link="Common\Interop\Windows\Activeds\AdsValue2.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AdsValueHelper2.cs" Link="Common\Interop\Windows\Activeds\AdsValueHelper2.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\AuthenticationMethod.cs" Link="Common\Interop\Windows\Activeds\AuthenticationMethod.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\Activeds\FreeAdsMem.cs" Link="Common\Interop\Windows\Activeds\FreeAdsMem.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\OleAut32\Interop.EnumVariant.cs" Link="Common\Interop\Windows\OleAut32\Interop.EnumVariant.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\OleAut32\Interop.Variant.cs" Link="Common\Interop\Windows\OleAut32\Interop.Variant.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\OleAut32\Interop.VariantClear.cs" Link="Common\Interop\Windows\OleAut32\Interop.VariantClear.cs" />
+    <Compile Include="$(CommonPath)\Interop\Windows\OleAut32\Interop.VariantInit.cs" Link="Common\Interop\Windows\OleAut32\Interop.VariantInit.cs" />
     <Compile Include="$(CommonPath)System\Obsoletions.cs" Link="System\Obsoletions.cs" />
   </ItemGroup>
   <ItemGroup>
